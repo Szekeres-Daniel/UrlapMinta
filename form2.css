@@ -1,0 +1,54 @@
+body{
+    background-image:url("hatter.jpg") ;
+    color: white;
+}
+#nevCm,
+#emailCm,
+#cimCm,
+#arCm,
+#kategoriaCm,
+#elfogadCm{
+    display: none;
+}
+#nevUzenet,
+#emailUzenet,
+#cimUzenet
+{
+    display: none;
+    color:red;
+}
+#kategoriaUzenet,
+#nevUzenet2,
+#emailUzenet2,
+#cimUzenet2,
+#elfogadUzenet,
+#arUzenet{
+    color:red;
+}
+#betuk{
+    color:rgb(17, 158, 4);
+}
+.container{
+    min-width: 360px;
+    width: 25% ;
+}
+#gomb{
+    width: 35%;
+    min-width: 145px;
+    margin-top: 20px;
+}
+#gomb-tarolo{
+    display: flex;
+    justify-content: center ;
+}
+#img{
+    color:green;
+}
+#leiras{
+    max-height: 415px;
+}
+.form-group{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
